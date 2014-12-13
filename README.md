@@ -1,4 +1,5 @@
-# Tiny Listing
+# Tiny Listing [![Build
+Status](https://travis-ci.org/skelz0r/tiny_listing.svg)](https://travis-ci.org/skelz0r/tiny_listing)
 
 CRUD on ``index of /*`` with search functionnalities.
 
