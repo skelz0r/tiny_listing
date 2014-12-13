@@ -232,6 +232,7 @@ DEPENDENCIES
   pg
   pry-byebug
   rails (~> 4.2.0.rc2)
+  rake
   rspec-rails
   sass-rails (~> 4.0.0)
   spring
