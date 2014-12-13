@@ -35,3 +35,8 @@ group :development do
   gem "spring"
   gem "spring-commands-rspec"
 end
+
+# Deploiement
+group :development do
+  gem 'mina', git: "https://github.com/mina-deploy/mina.git"
+end
