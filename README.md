@@ -8,7 +8,7 @@ CRUD on ``index of /*`` with search functionnalities.
 1. Install ``pg_trgm module``, on ubuntu:
 
 ```shell
-[sudo] aptitude install postgresql-contrib-9.1
+[sudo] aptitude install postgresql-contrib
 psql
 > CREATE EXTENSION pg_trgm;
 ```
