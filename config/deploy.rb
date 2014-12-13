@@ -25,6 +25,7 @@ set :shared_paths, [
   'public/system',
   'public/uploads',
 
+  "config/secrets.yml",
   "config/database.yml",
   "config/environments/production.rb"
 ]
