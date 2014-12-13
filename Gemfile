@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.1.0'
+gem 'rails', '~> 4.2.0.rc2'
 
 gem 'pg'
 
@@ -16,7 +16,6 @@ gem 'devise'
 gem 'therubyracer', platforms: :ruby
 gem 'jquery-rails'
 gem 'turbolinks'
-
 
 gem "nokogiri"
 gem "addressable"
