@@ -1,0 +1,7 @@
+= content_for :sub_header do
+  = form_for @repository, html: { class: "form-inline" } do |f|
+    .form-group.main-control
+      = f.text_field :link, class: "form-control", placeholder: "URL to the repository"
+    = f.button "Add more treasures!", class: "btn btn-success"
+
+= image_tag('repository-new-empty.svg', class: 'big-icon')

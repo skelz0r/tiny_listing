@@ -1,0 +1,13 @@
+= content_for(:sub_header) do
+  = render 'form'
+- if @loots.empty?
+  %h1.center-text Oh noeesss!!
+  = image_tag('no-result.svg', class: "big-icon")
+- else
+  %table.table#loots
+    %thead
+      %th Name
+      %th Extension
+      %th Size
+      %th Link
+    = render @loots

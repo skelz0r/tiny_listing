@@ -1,0 +1,4 @@
+%tr{id: dom_id(repository), class: [:repository, class_for_alive(repository)]}
+  %td= link_to(repository.link, repository.link)
+  %td= repository.loots.count
+  %td= link_to("Show", repository)

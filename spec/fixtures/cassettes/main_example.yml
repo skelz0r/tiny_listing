@@ -1,0 +1,2067 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2294429237; path=/; expires=Mon, 23-Dec-2013 17:42:55 GMT
+      - startBAK=R3415750288; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:12 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '1086'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon \"> <a
+        href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last modified</a>
+        \     <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/\">Parent Directory</a>
+        \                            -   \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\">
+        <a href=\"empty/\">empty/</a>                  08-Dec-2013 19:26    -   \n<img
+        src=\"/icons/image2.gif\" alt=\"[IMG]\"> <a href=\"no_you_listen.jpg\">no_you_listen.jpg</a>
+        \      18-May-2013 18:33   70K  \n<img src=\"/icons/sound2.gif\" alt=\"[SND]\">
+        <a href=\"non.wav\">non.wav</a>                 08-Dec-2013 16:15   21K  \n<img
+        src=\"/icons/folder.gif\" alt=\"[DIR]\"> <a href=\"path_le_chien/\">path_le_chien/</a>
+        \         19-May-2013 03:06    -   \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\">
+        <a href=\"root_le_chat/\">root_le_chat/</a>           19-May-2013 03:11    -
+        \  \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:12 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2701967281; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      - startBAK=R3415751377; path=/; expires=Mon, 23-Dec-2013 17:48:22 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:12 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '1086'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon \"> <a
+        href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last modified</a>
+        \     <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/\">Parent Directory</a>
+        \                            -   \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\">
+        <a href=\"empty/\">empty/</a>                  08-Dec-2013 19:26    -   \n<img
+        src=\"/icons/image2.gif\" alt=\"[IMG]\"> <a href=\"no_you_listen.jpg\">no_you_listen.jpg</a>
+        \      18-May-2013 18:33   70K  \n<img src=\"/icons/sound2.gif\" alt=\"[SND]\">
+        <a href=\"non.wav\">non.wav</a>                 08-Dec-2013 16:15   21K  \n<img
+        src=\"/icons/folder.gif\" alt=\"[DIR]\"> <a href=\"path_le_chien/\">path_le_chien/</a>
+        \         19-May-2013 03:06    -   \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\">
+        <a href=\"root_le_chat/\">root_le_chat/</a>           19-May-2013 03:11    -
+        \  \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:12 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/empty/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118922443; path=/; expires=Mon, 23-Dec-2013 17:51:30 GMT
+      - startBAK=R3415748110; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:12 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:12 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/empty/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2701967281; path=/; expires=Mon, 23-Dec-2013 17:51:30 GMT
+      - startBAK=R3415777513; path=/; expires=Mon, 23-Dec-2013 17:48:22 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:12 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '519'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/empty</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing/empty</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon
+        \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:12 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/empty/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118922443; path=/; expires=Mon, 23-Dec-2013 17:50:45 GMT
+      - startBAK=R3415777513; path=/; expires=Mon, 23-Dec-2013 17:46:48 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:12 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '519'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/empty</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing/empty</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon
+        \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:12 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/no_you_listen.jpg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118922443; path=/; expires=Mon, 23-Dec-2013 17:42:55 GMT
+      - startBAK=R3415751377; path=/; expires=Mon, 23-Dec-2013 17:46:48 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:12 GMT
+      Content-Type:
+      - image/jpeg
+      Content-Length:
+      - '71387'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Last-Modified:
+      - Sat, 18 May 2013 16:33:47 GMT
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=86400
+      Expires:
+      - Tue, 24 Dec 2013 16:33:12 GMT
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:12 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/non.wav
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118922443; path=/; expires=Mon, 23-Dec-2013 17:46:48 GMT
+      - startBAK=R3415747021; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:13 GMT
+      Content-Type:
+      - audio/x-wav
+      Content-Length:
+      - '21130'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Last-Modified:
+      - Sun, 08 Dec 2013 15:15:36 GMT
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=172800
+      Expires:
+      - Wed, 25 Dec 2013 16:33:13 GMT
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:13 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2294429237; path=/; expires=Mon, 23-Dec-2013 17:51:30 GMT
+      - startBAK=R3415750288; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:13 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:13 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118922443; path=/; expires=Mon, 23-Dec-2013 17:51:30 GMT
+      - startBAK=R3415742665; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:13 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '914'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/path_le_chien</title>\n </head>\n
+        <body>\n<h1>Index of /tiny_listing/path_le_chien</h1>\n<pre><img src=\"/icons/blank.gif\"
+        alt=\"Icon \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\">
+        <a href=\"chien_path_le/\">chien_path_le/</a>          19-May-2013 03:06    -
+        \  \n<img src=\"/icons/image2.gif\" alt=\"[IMG]\"> <a href=\"ganja_traffic_high_color.jpg\">ganja_traffic_high_c..&gt;</a>
+        19-May-2013 02:17  315K  \n<img src=\"/icons/image2.gif\" alt=\"[IMG]\"> <a
+        href=\"wallpaper.jpg\">wallpaper.jpg</a>           19-May-2013 00:43   34K
+        \ \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:13 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118922443; path=/; expires=Mon, 23-Dec-2013 17:43:05 GMT
+      - startBAK=R3415744843; path=/; expires=Mon, 23-Dec-2013 17:46:48 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:14 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '914'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/path_le_chien</title>\n </head>\n
+        <body>\n<h1>Index of /tiny_listing/path_le_chien</h1>\n<pre><img src=\"/icons/blank.gif\"
+        alt=\"Icon \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\">
+        <a href=\"chien_path_le/\">chien_path_le/</a>          19-May-2013 03:06    -
+        \  \n<img src=\"/icons/image2.gif\" alt=\"[IMG]\"> <a href=\"ganja_traffic_high_color.jpg\">ganja_traffic_high_c..&gt;</a>
+        19-May-2013 02:17  315K  \n<img src=\"/icons/image2.gif\" alt=\"[IMG]\"> <a
+        href=\"wallpaper.jpg\">wallpaper.jpg</a>           19-May-2013 00:43   34K
+        \ \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:14 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/chien_path_le/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118746025; path=/; expires=Mon, 23-Dec-2013 17:52:38 GMT
+      - startBAK=R3415743754; path=/; expires=Mon, 23-Dec-2013 17:46:48 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:14 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:14 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/chien_path_le/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118922443; path=/; expires=Mon, 23-Dec-2013 17:53:58 GMT
+      - startBAK=R3415750288; path=/; expires=Mon, 23-Dec-2013 17:42:24 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:14 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '703'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/path_le_chien/chien_path_le</title>\n
+        </head>\n <body>\n<h1>Index of /tiny_listing/path_le_chien/chien_path_le</h1>\n<pre><img
+        src=\"/icons/blank.gif\" alt=\"Icon \"> <a href=\"?C=N;O=D\">Name</a>                    <a
+        href=\"?C=M;O=A\">Last modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a
+        href=\"?C=D;O=A\">Description</a><hr><img src=\"/icons/back.gif\" alt=\"[DIR]\">
+        <a href=\"/tiny_listing/path_le_chien/\">Parent Directory</a>                             -
+        \  \n<img src=\"/icons/compressed.gif\" alt=\"[   ]\"> <a href=\"rastazsh.tar.gz\">rastazsh.tar.gz</a>
+        \        19-May-2013 03:06  4.1K  \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:14 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/chien_path_le/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118746025; path=/; expires=Mon, 23-Dec-2013 17:50:45 GMT
+      - startBAK=R3415744843; path=/; expires=Mon, 23-Dec-2013 17:48:22 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:14 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '703'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/path_le_chien/chien_path_le</title>\n
+        </head>\n <body>\n<h1>Index of /tiny_listing/path_le_chien/chien_path_le</h1>\n<pre><img
+        src=\"/icons/blank.gif\" alt=\"Icon \"> <a href=\"?C=N;O=D\">Name</a>                    <a
+        href=\"?C=M;O=A\">Last modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a
+        href=\"?C=D;O=A\">Description</a><hr><img src=\"/icons/back.gif\" alt=\"[DIR]\">
+        <a href=\"/tiny_listing/path_le_chien/\">Parent Directory</a>                             -
+        \  \n<img src=\"/icons/compressed.gif\" alt=\"[   ]\"> <a href=\"rastazsh.tar.gz\">rastazsh.tar.gz</a>
+        \        19-May-2013 03:06  4.1K  \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:14 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/chien_path_le/rastazsh.tar.gz
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118922443; path=/; expires=Mon, 23-Dec-2013 17:53:58 GMT
+      - startBAK=R3415747021; path=/; expires=Mon, 23-Dec-2013 17:42:24 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:14 GMT
+      Content-Type:
+      - application/x-gzip
+      Content-Length:
+      - '4249'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Last-Modified:
+      - Sun, 19 May 2013 01:06:31 GMT
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:14 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/ganja_traffic_high_color.jpg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2294429237; path=/; expires=Mon, 23-Dec-2013 17:51:30 GMT
+      - startBAK=R3415743754; path=/; expires=Mon, 23-Dec-2013 17:48:22 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:14 GMT
+      Content-Type:
+      - image/jpeg
+      Content-Length:
+      - '322050'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Last-Modified:
+      - Sun, 19 May 2013 00:17:57 GMT
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=86400
+      Expires:
+      - Tue, 24 Dec 2013 16:33:14 GMT
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:14 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/wallpaper.jpg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118922443; path=/; expires=Mon, 23-Dec-2013 17:41:21 GMT
+      - startBAK=R3415747021; path=/; expires=Mon, 23-Dec-2013 17:48:22 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:14 GMT
+      Content-Type:
+      - image/jpeg
+      Content-Length:
+      - '35270'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Last-Modified:
+      - Sat, 18 May 2013 22:43:07 GMT
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=86400
+      Expires:
+      - Tue, 24 Dec 2013 16:33:14 GMT
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:14 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118922443; path=/; expires=Mon, 23-Dec-2013 17:51:22 GMT
+      - startBAK=R3415747021; path=/; expires=Mon, 23-Dec-2013 17:42:24 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:14 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:14 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2294429237; path=/; expires=Mon, 23-Dec-2013 17:52:38 GMT
+      - startBAK=R3415743754; path=/; expires=Mon, 23-Dec-2013 17:46:48 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:14 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '765'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/root_le_chat</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing/root_le_chat</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon
+        \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<img src=\"/icons/image2.gif\" alt=\"[IMG]\">
+        <a href=\"balembot.png\">balembot.png</a>            19-May-2013 03:11   64K
+        \ \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\"> <a href=\"test2/\">test2/</a>
+        \                 19-May-2013 03:11    -   \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:14 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2701967281; path=/; expires=Mon, 23-Dec-2013 17:42:24 GMT
+      - startBAK=R3415749199; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:15 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '765'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/root_le_chat</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing/root_le_chat</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon
+        \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<img src=\"/icons/image2.gif\" alt=\"[IMG]\">
+        <a href=\"balembot.png\">balembot.png</a>            19-May-2013 03:11   64K
+        \ \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\"> <a href=\"test2/\">test2/</a>
+        \                 19-May-2013 03:11    -   \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:15 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/balembot.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2294429237; path=/; expires=Mon, 23-Dec-2013 17:52:38 GMT
+      - startBAK=R3415745932; path=/; expires=Mon, 23-Dec-2013 17:46:48 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:15 GMT
+      Content-Type:
+      - image/png
+      Content-Length:
+      - '65620'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Last-Modified:
+      - Sun, 19 May 2013 01:11:17 GMT
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=86400
+      Expires:
+      - Tue, 24 Dec 2013 16:33:15 GMT
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:15 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/test2/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118922443; path=/; expires=Mon, 23-Dec-2013 17:43:05 GMT
+      - startBAK=R3415745932; path=/; expires=Mon, 23-Dec-2013 17:42:24 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:15 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:15 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/test2/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118746025; path=/; expires=Mon, 23-Dec-2013 17:52:38 GMT
+      - startBAK=R3415743754; path=/; expires=Mon, 23-Dec-2013 17:46:48 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:15 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '682'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/root_le_chat/test2</title>\n </head>\n
+        <body>\n<h1>Index of /tiny_listing/root_le_chat/test2</h1>\n<pre><img src=\"/icons/blank.gif\"
+        alt=\"Icon \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/root_le_chat/\">Parent
+        Directory</a>                             -   \n<img src=\"/icons/image2.gif\"
+        alt=\"[IMG]\"> <a href=\"tableau_liege.png\">tableau_liege.png</a>       19-May-2013
+        03:11  852K  \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:15 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/test2/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118746025; path=/; expires=Mon, 23-Dec-2013 17:43:05 GMT
+      - startBAK=R3415743754; path=/; expires=Mon, 23-Dec-2013 17:42:24 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:15 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '682'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/root_le_chat/test2</title>\n </head>\n
+        <body>\n<h1>Index of /tiny_listing/root_le_chat/test2</h1>\n<pre><img src=\"/icons/blank.gif\"
+        alt=\"Icon \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/root_le_chat/\">Parent
+        Directory</a>                             -   \n<img src=\"/icons/image2.gif\"
+        alt=\"[IMG]\"> <a href=\"tableau_liege.png\">tableau_liege.png</a>       19-May-2013
+        03:11  852K  \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:15 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/test2/tableau_liege.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118922443; path=/; expires=Mon, 23-Dec-2013 17:51:22 GMT
+      - startBAK=R3415749199; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:33:15 GMT
+      Content-Type:
+      - image/png
+      Content-Length:
+      - '872185'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Last-Modified:
+      - Sun, 19 May 2013 01:11:32 GMT
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=86400
+      Expires:
+      - Tue, 24 Dec 2013 16:33:15 GMT
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:33:15 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118925710; path=/; expires=Mon, 23-Dec-2013 17:50:45 GMT
+      - startBAK=R3415744843; path=/; expires=Mon, 23-Dec-2013 17:48:22 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:02 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '1086'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon \"> <a
+        href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last modified</a>
+        \     <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/\">Parent Directory</a>
+        \                            -   \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\">
+        <a href=\"empty/\">empty/</a>                  08-Dec-2013 19:26    -   \n<img
+        src=\"/icons/image2.gif\" alt=\"[IMG]\"> <a href=\"no_you_listen.jpg\">no_you_listen.jpg</a>
+        \      18-May-2013 18:33   70K  \n<img src=\"/icons/sound2.gif\" alt=\"[SND]\">
+        <a href=\"non.wav\">non.wav</a>                 08-Dec-2013 16:15   21K  \n<img
+        src=\"/icons/folder.gif\" alt=\"[DIR]\"> <a href=\"path_le_chien/\">path_le_chien/</a>
+        \         19-May-2013 03:06    -   \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\">
+        <a href=\"root_le_chat/\">root_le_chat/</a>           19-May-2013 03:11    -
+        \  \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:02 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118746025; path=/; expires=Mon, 23-Dec-2013 17:43:05 GMT
+      - startBAK=R3415742665; path=/; expires=Mon, 23-Dec-2013 17:46:48 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:02 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '1086'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon \"> <a
+        href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last modified</a>
+        \     <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/\">Parent Directory</a>
+        \                            -   \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\">
+        <a href=\"empty/\">empty/</a>                  08-Dec-2013 19:26    -   \n<img
+        src=\"/icons/image2.gif\" alt=\"[IMG]\"> <a href=\"no_you_listen.jpg\">no_you_listen.jpg</a>
+        \      18-May-2013 18:33   70K  \n<img src=\"/icons/sound2.gif\" alt=\"[SND]\">
+        <a href=\"non.wav\">non.wav</a>                 08-Dec-2013 16:15   21K  \n<img
+        src=\"/icons/folder.gif\" alt=\"[DIR]\"> <a href=\"path_le_chien/\">path_le_chien/</a>
+        \         19-May-2013 03:06    -   \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\">
+        <a href=\"root_le_chat/\">root_le_chat/</a>           19-May-2013 03:11    -
+        \  \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:02 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/empty/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2701962925; path=/; expires=Mon, 23-Dec-2013 17:43:05 GMT
+      - startBAK=R3415745932; path=/; expires=Mon, 23-Dec-2013 17:48:22 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:02 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:02 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/empty/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2294429237; path=/; expires=Mon, 23-Dec-2013 17:52:38 GMT
+      - startBAK=R3415751377; path=/; expires=Mon, 23-Dec-2013 17:46:48 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:02 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '519'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/empty</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing/empty</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon
+        \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:02 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/empty/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2294429237; path=/; expires=Mon, 23-Dec-2013 17:53:58 GMT
+      - startBAK=R3415742665; path=/; expires=Mon, 23-Dec-2013 17:48:22 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:02 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '519'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/empty</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing/empty</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon
+        \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:02 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/no_you_listen.jpg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118746025; path=/; expires=Mon, 23-Dec-2013 17:52:38 GMT
+      - startBAK=R3415748110; path=/; expires=Mon, 23-Dec-2013 17:42:24 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:02 GMT
+      Content-Type:
+      - image/jpeg
+      Content-Length:
+      - '71387'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Last-Modified:
+      - Sat, 18 May 2013 16:33:47 GMT
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=86400
+      Expires:
+      - Tue, 24 Dec 2013 16:34:02 GMT
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:02 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/non.wav
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2701962925; path=/; expires=Mon, 23-Dec-2013 17:53:58 GMT
+      - startBAK=R3415748110; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:02 GMT
+      Content-Type:
+      - audio/x-wav
+      Content-Length:
+      - '21130'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Last-Modified:
+      - Sun, 08 Dec 2013 15:15:36 GMT
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=172800
+      Expires:
+      - Wed, 25 Dec 2013 16:34:02 GMT
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:02 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2294429237; path=/; expires=Mon, 23-Dec-2013 17:52:38 GMT
+      - startBAK=R3415743754; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:02 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:02 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118925710; path=/; expires=Mon, 23-Dec-2013 17:42:55 GMT
+      - startBAK=R3415743754; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:03 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '914'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/path_le_chien</title>\n </head>\n
+        <body>\n<h1>Index of /tiny_listing/path_le_chien</h1>\n<pre><img src=\"/icons/blank.gif\"
+        alt=\"Icon \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\">
+        <a href=\"chien_path_le/\">chien_path_le/</a>          19-May-2013 03:06    -
+        \  \n<img src=\"/icons/image2.gif\" alt=\"[IMG]\"> <a href=\"ganja_traffic_high_color.jpg\">ganja_traffic_high_c..&gt;</a>
+        19-May-2013 02:17  315K  \n<img src=\"/icons/image2.gif\" alt=\"[IMG]\"> <a
+        href=\"wallpaper.jpg\">wallpaper.jpg</a>           19-May-2013 00:43   34K
+        \ \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:03 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118925710; path=/; expires=Mon, 23-Dec-2013 17:51:22 GMT
+      - startBAK=R3415750288; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:03 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '914'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/path_le_chien</title>\n </head>\n
+        <body>\n<h1>Index of /tiny_listing/path_le_chien</h1>\n<pre><img src=\"/icons/blank.gif\"
+        alt=\"Icon \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\">
+        <a href=\"chien_path_le/\">chien_path_le/</a>          19-May-2013 03:06    -
+        \  \n<img src=\"/icons/image2.gif\" alt=\"[IMG]\"> <a href=\"ganja_traffic_high_color.jpg\">ganja_traffic_high_c..&gt;</a>
+        19-May-2013 02:17  315K  \n<img src=\"/icons/image2.gif\" alt=\"[IMG]\"> <a
+        href=\"wallpaper.jpg\">wallpaper.jpg</a>           19-May-2013 00:43   34K
+        \ \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:03 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/chien_path_le/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118925710; path=/; expires=Mon, 23-Dec-2013 17:52:38 GMT
+      - startBAK=R3415742665; path=/; expires=Mon, 23-Dec-2013 17:48:22 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:03 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:03 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/chien_path_le/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2701962925; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      - startBAK=R3415744843; path=/; expires=Mon, 23-Dec-2013 17:46:48 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:03 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '703'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/path_le_chien/chien_path_le</title>\n
+        </head>\n <body>\n<h1>Index of /tiny_listing/path_le_chien/chien_path_le</h1>\n<pre><img
+        src=\"/icons/blank.gif\" alt=\"Icon \"> <a href=\"?C=N;O=D\">Name</a>                    <a
+        href=\"?C=M;O=A\">Last modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a
+        href=\"?C=D;O=A\">Description</a><hr><img src=\"/icons/back.gif\" alt=\"[DIR]\">
+        <a href=\"/tiny_listing/path_le_chien/\">Parent Directory</a>                             -
+        \  \n<img src=\"/icons/compressed.gif\" alt=\"[   ]\"> <a href=\"rastazsh.tar.gz\">rastazsh.tar.gz</a>
+        \        19-May-2013 03:06  4.1K  \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:03 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/chien_path_le/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2701962925; path=/; expires=Mon, 23-Dec-2013 17:51:22 GMT
+      - startBAK=R3415750288; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:03 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '703'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/path_le_chien/chien_path_le</title>\n
+        </head>\n <body>\n<h1>Index of /tiny_listing/path_le_chien/chien_path_le</h1>\n<pre><img
+        src=\"/icons/blank.gif\" alt=\"Icon \"> <a href=\"?C=N;O=D\">Name</a>                    <a
+        href=\"?C=M;O=A\">Last modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a
+        href=\"?C=D;O=A\">Description</a><hr><img src=\"/icons/back.gif\" alt=\"[DIR]\">
+        <a href=\"/tiny_listing/path_le_chien/\">Parent Directory</a>                             -
+        \  \n<img src=\"/icons/compressed.gif\" alt=\"[   ]\"> <a href=\"rastazsh.tar.gz\">rastazsh.tar.gz</a>
+        \        19-May-2013 03:06  4.1K  \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:03 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/chien_path_le/rastazsh.tar.gz
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118746025; path=/; expires=Mon, 23-Dec-2013 17:53:58 GMT
+      - startBAK=R3415777513; path=/; expires=Mon, 23-Dec-2013 17:46:48 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:03 GMT
+      Content-Type:
+      - application/x-gzip
+      Content-Length:
+      - '4249'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Last-Modified:
+      - Sun, 19 May 2013 01:06:31 GMT
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:03 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/ganja_traffic_high_color.jpg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2701962925; path=/; expires=Mon, 23-Dec-2013 17:51:22 GMT
+      - startBAK=R3415750288; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:03 GMT
+      Content-Type:
+      - image/jpeg
+      Content-Length:
+      - '322050'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Last-Modified:
+      - Sun, 19 May 2013 00:17:57 GMT
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=86400
+      Expires:
+      - Tue, 24 Dec 2013 16:34:03 GMT
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:03 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/path_le_chien/wallpaper.jpg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2701962925; path=/; expires=Mon, 23-Dec-2013 17:42:55 GMT
+      - startBAK=R3415743754; path=/; expires=Mon, 23-Dec-2013 17:48:22 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:03 GMT
+      Content-Type:
+      - image/jpeg
+      Content-Length:
+      - '35270'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Last-Modified:
+      - Sat, 18 May 2013 22:43:07 GMT
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=86400
+      Expires:
+      - Tue, 24 Dec 2013 16:34:03 GMT
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:03 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2294429237; path=/; expires=Mon, 23-Dec-2013 17:42:24 GMT
+      - startBAK=R3415748110; path=/; expires=Mon, 23-Dec-2013 17:42:24 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:03 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:03 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2701962925; path=/; expires=Mon, 23-Dec-2013 17:53:58 GMT
+      - startBAK=R3415751377; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:03 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '765'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/root_le_chat</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing/root_le_chat</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon
+        \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<img src=\"/icons/image2.gif\" alt=\"[IMG]\">
+        <a href=\"balembot.png\">balembot.png</a>            19-May-2013 03:11   64K
+        \ \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\"> <a href=\"test2/\">test2/</a>
+        \                 19-May-2013 03:11    -   \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:03 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2294429237; path=/; expires=Mon, 23-Dec-2013 17:52:38 GMT
+      - startBAK=R3415742665; path=/; expires=Mon, 23-Dec-2013 17:46:48 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:03 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '765'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/root_le_chat</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing/root_le_chat</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon
+        \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<img src=\"/icons/image2.gif\" alt=\"[IMG]\">
+        <a href=\"balembot.png\">balembot.png</a>            19-May-2013 03:11   64K
+        \ \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\"> <a href=\"test2/\">test2/</a>
+        \                 19-May-2013 03:11    -   \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:03 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/balembot.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2294429237; path=/; expires=Mon, 23-Dec-2013 17:43:05 GMT
+      - startBAK=R3415751377; path=/; expires=Mon, 23-Dec-2013 17:48:22 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:04 GMT
+      Content-Type:
+      - image/png
+      Content-Length:
+      - '65620'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Last-Modified:
+      - Sun, 19 May 2013 01:11:17 GMT
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=86400
+      Expires:
+      - Tue, 24 Dec 2013 16:34:04 GMT
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:03 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/test2/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2701962925; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      - startBAK=R3415743754; path=/; expires=Mon, 23-Dec-2013 17:48:22 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:04 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:04 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/test2/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2294429237; path=/; expires=Mon, 23-Dec-2013 17:48:22 GMT
+      - startBAK=R3415747021; path=/; expires=Mon, 23-Dec-2013 17:48:22 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:04 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '682'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/root_le_chat/test2</title>\n </head>\n
+        <body>\n<h1>Index of /tiny_listing/root_le_chat/test2</h1>\n<pre><img src=\"/icons/blank.gif\"
+        alt=\"Icon \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/root_le_chat/\">Parent
+        Directory</a>                             -   \n<img src=\"/icons/image2.gif\"
+        alt=\"[IMG]\"> <a href=\"tableau_liege.png\">tableau_liege.png</a>       19-May-2013
+        03:11  852K  \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:04 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/test2/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118925710; path=/; expires=Mon, 23-Dec-2013 17:52:38 GMT
+      - startBAK=R3415777513; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:04 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '682'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/root_le_chat/test2</title>\n </head>\n
+        <body>\n<h1>Index of /tiny_listing/root_le_chat/test2</h1>\n<pre><img src=\"/icons/blank.gif\"
+        alt=\"Icon \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/root_le_chat/\">Parent
+        Directory</a>                             -   \n<img src=\"/icons/image2.gif\"
+        alt=\"[IMG]\"> <a href=\"tableau_liege.png\">tableau_liege.png</a>       19-May-2013
+        03:11  852K  \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:04 GMT
+- request:
+    method: head
+    uri: http://skelz0r.fr/tiny_listing/root_le_chat/test2/tableau_liege.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R2701962925; path=/; expires=Mon, 23-Dec-2013 17:46:48 GMT
+      - startBAK=R3415748110; path=/; expires=Mon, 23-Dec-2013 17:43:44 GMT
+      Date:
+      - Mon, 23 Dec 2013 16:34:04 GMT
+      Content-Type:
+      - image/png
+      Content-Length:
+      - '872185'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Last-Modified:
+      - Sun, 19 May 2013 01:11:32 GMT
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=86400
+      Expires:
+      - Tue, 24 Dec 2013 16:34:04 GMT
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Mon, 23 Dec 2013 16:34:04 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R697677540; path=/; expires=Sat, 24-May-2014 14:15:03 GMT
+      - startBAK=R3415743754; path=/; expires=Sat, 24-May-2014 14:11:06 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Sat, 24 May 2014 13:05:36 GMT
+      Connection:
+      - keep-alive
+      X-Geo:
+      - varn22.rbx5
+      X-Geo-Port:
+      - '1014'
+      X-Cacheable:
+      - ! 'Not cacheable: no cache headers from backend'
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon \"> <a
+        href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last modified</a>
+        \     <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/\">Parent Directory</a>
+        \                            -   \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\">
+        <a href=\"empty/\">empty/</a>                  08-Dec-2013 19:26    -   \n<img
+        src=\"/icons/image2.gif\" alt=\"[IMG]\"> <a href=\"no_you_listen.jpg\">no_you_listen.jpg</a>
+        \      18-May-2013 18:33   70K  \n<img src=\"/icons/sound2.gif\" alt=\"[SND]\">
+        <a href=\"non.wav\">non.wav</a>                 08-Dec-2013 16:15   21K  \n<img
+        src=\"/icons/folder.gif\" alt=\"[DIR]\"> <a href=\"path_le_chien/\">path_le_chien/</a>
+        \         19-May-2013 03:06    -   \n<img src=\"/icons/folder.gif\" alt=\"[DIR]\">
+        <a href=\"root_le_chat/\">root_le_chat/</a>           19-May-2013 03:11    -
+        \  \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Sat, 24 May 2014 13:05:36 GMT
+recorded_with: VCR 2.6.0

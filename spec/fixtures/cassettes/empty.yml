@@ -1,0 +1,285 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/empty
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Set-Cookie:
+      - start=R3918541884; path=/; expires=Sun, 15-Dec-2013 15:01:15 GMT
+      - startBAK=R3415749199; path=/; expires=Sun, 15-Dec-2013 14:55:34 GMT
+      Date:
+      - Sun, 15 Dec 2013 13:42:21 GMT
+      Content-Type:
+      - text/html; charset=iso-8859-1
+      Content-Length:
+      - '245'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Location:
+      - http://skelz0r.fr/tiny_listing/empty/
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <html><head>
+
+        <title>301 Moved Permanently</title>
+
+        </head><body>
+
+        <h1>Moved Permanently</h1>
+
+        <p>The document has moved <a href="http://skelz0r.fr/tiny_listing/empty/">here</a>.</p>
+
+        </body></html>
+
+'
+    http_version: 
+  recorded_at: Sun, 15 Dec 2013 13:42:21 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/empty/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R3918541884; path=/; expires=Sun, 15-Dec-2013 14:50:26 GMT
+      - startBAK=R3415749199; path=/; expires=Sun, 15-Dec-2013 14:55:34 GMT
+      Date:
+      - Sun, 15 Dec 2013 13:42:26 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '519'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/empty</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing/empty</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon
+        \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Sun, 15 Dec 2013 13:42:26 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/empty
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Set-Cookie:
+      - start=R2701891051; path=/; expires=Sun, 15-Dec-2013 14:58:30 GMT
+      - startBAK=R3415744843; path=/; expires=Sun, 15-Dec-2013 14:49:49 GMT
+      Date:
+      - Sun, 15 Dec 2013 13:42:27 GMT
+      Content-Type:
+      - text/html; charset=iso-8859-1
+      Content-Length:
+      - '245'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Location:
+      - http://skelz0r.fr/tiny_listing/empty/
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <html><head>
+
+        <title>301 Moved Permanently</title>
+
+        </head><body>
+
+        <h1>Moved Permanently</h1>
+
+        <p>The document has moved <a href="http://skelz0r.fr/tiny_listing/empty/">here</a>.</p>
+
+        </body></html>
+
+'
+    http_version: 
+  recorded_at: Sun, 15 Dec 2013 13:42:27 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/empty/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R3255968662; path=/; expires=Sun, 15-Dec-2013 15:01:15 GMT
+      - startBAK=R3415747021; path=/; expires=Sun, 15-Dec-2013 14:49:49 GMT
+      Date:
+      - Sun, 15 Dec 2013 13:42:27 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '519'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/empty</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing/empty</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon
+        \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Sun, 15 Dec 2013 13:42:27 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/empty
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Set-Cookie:
+      - start=R3255968662; path=/; expires=Sun, 15-Dec-2013 14:50:26 GMT
+      - startBAK=R3415749199; path=/; expires=Sun, 15-Dec-2013 14:54:02 GMT
+      Date:
+      - Sun, 15 Dec 2013 13:42:27 GMT
+      Content-Type:
+      - text/html; charset=iso-8859-1
+      Content-Length:
+      - '245'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Location:
+      - http://skelz0r.fr/tiny_listing/empty/
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <html><head>
+
+        <title>301 Moved Permanently</title>
+
+        </head><body>
+
+        <h1>Moved Permanently</h1>
+
+        <p>The document has moved <a href="http://skelz0r.fr/tiny_listing/empty/">here</a>.</p>
+
+        </body></html>
+
+'
+    http_version: 
+  recorded_at: Sun, 15 Dec 2013 13:42:27 GMT
+- request:
+    method: get
+    uri: http://skelz0r.fr/tiny_listing/empty/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - start=R118856014; path=/; expires=Sun, 15-Dec-2013 15:01:15 GMT
+      - startBAK=R3415748110; path=/; expires=Sun, 15-Dec-2013 14:54:02 GMT
+      Date:
+      - Sun, 15 Dec 2013 13:42:27 GMT
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '519'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n
+        <head>\n  <title>Index of /tiny_listing/empty</title>\n </head>\n <body>\n<h1>Index
+        of /tiny_listing/empty</h1>\n<pre><img src=\"/icons/blank.gif\" alt=\"Icon
+        \"> <a href=\"?C=N;O=D\">Name</a>                    <a href=\"?C=M;O=A\">Last
+        modified</a>      <a href=\"?C=S;O=A\">Size</a>  <a href=\"?C=D;O=A\">Description</a><hr><img
+        src=\"/icons/back.gif\" alt=\"[DIR]\"> <a href=\"/tiny_listing/\">Parent Directory</a>
+        \                            -   \n<hr></pre>\n</body></html>\n"
+    http_version: 
+  recorded_at: Sun, 15 Dec 2013 13:42:27 GMT
+recorded_with: VCR 2.6.0

@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://lepetit.iiens.net/SIA/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Date:
+      - Sun, 15 Dec 2013 13:45:04 GMT
+      Server:
+      - Apache
+      Vary:
+      - accept-language,accept-charset
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+      Content-Language:
+      - en
+    body:
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n<!DOCTYPE html PUBLIC
+        \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html
+        xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\">\n<head>\n<title>Access
+        forbidden!</title>\n<link rev=\"made\" href=\"mailto:%5bno%20address%20given%5d\"
+        />\n<style type=\"text/css\"><!--/*--><![CDATA[/*><!--*/ \n    body { color:
+        #000000; background-color: #FFFFFF; }\n    a:link { color: #0000CC; }\n    p,
+        address {margin-left: 3em;}\n    span {font-size: smaller;}\n/*]]>*/--></style>\n</head>\n\n<body>\n<h1>Access
+        forbidden!</h1>\n<p>\n\n\n  \n\n    You don't have permission to access the
+        requested directory.\n    There is either no index document or the directory
+        is read-protected.\n\n  \n\n<h2>Diagnostic rapide</h2>\n\n<ul>\n\t<li>Placez
+        un fichier <tt>index.html</tt> dans votre r&eacute;pertoire <tt>~/html</tt>&nbsp;;\n\t<li>V&eacute;rifiez
+        que le fichier ait les bonnes permissions (un <tt>chmod 644</tt> suffit)</li>\n</ul>\n\n<p>Pour
+        plus d'informations, veuillez consulter <a href=\"https://wiki.iiens.net/doku.php?id=services_arise:perso_connection\">la
+        page du wiki d'Arise portant sur les pages perso</a>.  Si cela ne r&eacute;sout
+        pas votre probl&egrave;me, <a href=\"http://arise.iiens.net/?page=tracker\">ouvrez
+        un ticket</a> sur le <a href=\"http://arise.iiens.net\">site d'Arise</a>.\n\n\n</p>\n<p>\nIf
+        you think this is a server error, please contact\nthe <a href=\"mailto:%5bno%20address%20given%5d\">webmaster</a>.\n\n</p>\n\n<h2>Error
+        403</h2>\n<address>\n  <a href=\"/\">lepetit.iiens.net</a><br />\n  \n  <span>Sun
+        Dec 15 14:45:04 2013<br />\n  Apache</span>\n</address>\n\n</body>\n</html>\n\n"
+    http_version: 
+  recorded_at: Sun, 15 Dec 2013 13:45:04 GMT
+recorded_with: VCR 2.6.0

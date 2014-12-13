@@ -1,0 +1,6 @@
+= form_for @loot, url: search_path, html: { id: :search, class: "form-inline" }, method: :post do |f|
+  .form-group.main-control
+    = f.text_field :name, class: "form-control", placeholder: "Type your search here"
+  .form-group
+    = f.select :extension, Loot::BASIC_EXTENSIONS.collect {|ext| [ext, ext] }, { include_blank: true }, class: "form-control"
+  = f.button "Bring the awesomness", class: "btn btn-success"

@@ -1,0 +1,14 @@
+= content_for(:sub_header) do
+  .repository
+    %h3= @repository.link
+    %p
+      #{@repository.loots.count} coins!
+    .actions
+      = link_to "Refresh", @repository, method: :patch, class: "btn btn-success"
+%table.table#loots
+  %thead
+    %th Name
+    %th Extension
+    %th Size
+    %th Link
+  = render @repository.loots
