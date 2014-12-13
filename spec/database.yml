@@ -1,0 +1,10 @@
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: tiny_listing_test
+  host: localhost
+  pool: 5
+  username: postgres
+  password:
+
+
