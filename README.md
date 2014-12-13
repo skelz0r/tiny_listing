@@ -21,3 +21,8 @@ psql
 > CREATE DATABASE tiny_listing_development with OWNER tiny_listing;
 > CREATE DATABASE tiny_listing_test with OWNER tiny_listing;
 ```
+
+## License
+
+Tiny Listing is released under the [MIT
+License](http://opensource.org/licenses/MIT)
