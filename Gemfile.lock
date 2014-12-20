@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:Mic92/mina-sidekiq.git
+  remote: https://github.com/Mic92/mina-sidekiq.git
   revision: 77546497f271effc1473292b108bfa66fe826dc6
   specs:
     mina-sidekiq (0.3.0)

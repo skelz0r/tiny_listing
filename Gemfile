@@ -42,7 +42,7 @@ end
 # Deploiement
 group :development do
   gem 'mina', git: "https://github.com/mina-deploy/mina.git"
-  gem 'mina-sidekiq', git: "git@github.com:Mic92/mina-sidekiq.git"
+  gem 'mina-sidekiq', git: "https://github.com/Mic92/mina-sidekiq.git"
 end
 
 group :development, :test do
