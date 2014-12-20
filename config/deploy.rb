@@ -3,6 +3,7 @@ require 'mina/rails'
 require 'mina/git'
 require 'mina/rvm'
 require 'mina/whenever'
+require 'mina_sidekiq/tasks'
 
 ruby_version = "2.0.0-p594"
 
@@ -18,7 +19,7 @@ set :rvm_path, "/usr/local/rvm/scripts/rvm"
 
 set :shared_paths, [
   'log',
-  'bin',
+  # 'bin',
   'tmp/pids',
   'tmp/cache',
   'tmp/sockets',
@@ -66,6 +67,7 @@ task :deploy => :environment do
     # Put things that will set up an empty directory into a fully set-up
     # instance of your project.
     invoke :'git:clone'
+    invoke :'sidekiq:quiet'
     invoke :'deploy:link_shared_paths'
     invoke :'bundle:install'
     invoke :'rails:db_migrate'
@@ -75,6 +77,7 @@ task :deploy => :environment do
 
     to :launch do
       queue "touch #{deploy_to}/current/tmp/restart.txt"
+      invoke :'sidekiq:restart'
     end
   end
 end

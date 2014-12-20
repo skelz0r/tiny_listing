@@ -1,4 +1,11 @@
 GIT
+  remote: git@github.com:Mic92/mina-sidekiq.git
+  revision: 77546497f271effc1473292b108bfa66fe826dc6
+  specs:
+    mina-sidekiq (0.3.0)
+      mina
+
+GIT
   remote: https://github.com/mina-deploy/mina.git
   revision: 7b64d95a1e75d106647880bb9d5b3b1b7689ab3e
   specs:
@@ -255,6 +262,7 @@ DEPENDENCIES
   interactor (~> 3.0)
   jquery-rails
   mina!
+  mina-sidekiq!
   nokogiri
   pg
   pry-byebug
