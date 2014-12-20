@@ -24,6 +24,8 @@ class Vacuum::LinkSanitizer
     @uri ||= begin
       uri = Addressable::URI.parse(sanitize_link(@link_string))
       uri.normalize
+      uri.query_values = nil
+      uri
     end
   end
 

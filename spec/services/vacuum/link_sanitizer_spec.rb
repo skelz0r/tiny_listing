@@ -36,6 +36,12 @@ describe Vacuum::LinkSanitizer do
       link.should == "http://oki.fr/"
     end
 
+    it "removes query values" do
+      link = Vacuum::LinkSanitizer.new("http://178.32.222.59/public/PARTAGE/torrents/?C=M;O=D").link
+
+      link.should_not =~ /C=M/
+    end
+
     context "when link finished with '/'" do
       it "doesn't add a '/'" do
         link = Vacuum::LinkSanitizer.new("oki.fr/").link
