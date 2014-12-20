@@ -12,10 +12,17 @@ class VacuumWorker
       repository = Repository.find(repository_id)
       raise "No repository" if repository.blank?
 
+      logger.info "Beginning of loot #{repository.link}"
       link_sanitizer = Vacuum::LinkSanitizer.new(repository.link)
-      Vacuum::LootPlace.new(root_link: link_sanitizer, link: link_sanitizer, repository: repository).sack_it!
+      loot_place = Vacuum::LootPlace.new(root_link: link_sanitizer, link: link_sanitizer, repository: repository)
+
+      loot_place.sack_it!
+
+      logger.info "END of loot #{repository.link}"
     rescue => e
       logger.error "Unable to loot repository: #{e}"
     end
+
+    logger.info "===="
   end
 end

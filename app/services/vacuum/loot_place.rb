@@ -9,7 +9,11 @@ class Vacuum::LootPlace
 
   def sack_it!
     extract_nodes.each do |node_link|
-      suck_node(node_link.to_s)
+      begin
+        suck_node(node_link.to_s)
+      rescue => e
+        logger.error "Unable to fetch #{node_link}: #{e}"
+      end
     end
   end
 
@@ -18,6 +22,10 @@ class Vacuum::LootPlace
   end
 
   protected
+
+  def logger
+    @logger ||= Logger.new("#{Rails.root}/log/vacuum.log")
+  end
 
   def suck_node(link)
     head = get_http_head(link)
