@@ -21,6 +21,9 @@ gem "nokogiri"
 gem "addressable"
 gem 'textacular', '~> 3.0'
 
+gem "sidekiq"
+gem "interactor", "~> 3.0"
+
 group :test do
   gem 'capybara'
   gem 'rspec-rails'
@@ -31,7 +34,6 @@ group :test do
 end
 
 group :development do
-  gem 'pry-byebug'
   gem "spring"
   gem "spring-commands-rspec"
 end
@@ -39,4 +41,8 @@ end
 # Deploiement
 group :development do
   gem 'mina', git: "https://github.com/mina-deploy/mina.git"
+end
+
+group :development, :test do
+  gem 'pry-byebug'
 end

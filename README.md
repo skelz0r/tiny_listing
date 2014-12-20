@@ -2,7 +2,10 @@
 
 CRUD on ``index of /*`` with search functionnalities.
 
-## Setup
+## Setup & requirements
+
+Install ``redis``
+
 ### Postgresql and trigram
 
 1. Install ``pg_trgm module``, on ubuntu:

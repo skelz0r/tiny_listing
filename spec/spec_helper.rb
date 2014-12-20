@@ -4,6 +4,7 @@ require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
 require 'rspec/autorun'
 require 'webmock/rspec'
+require 'sidekiq/testing'
 require 'vcr'
 
 Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
@@ -30,7 +31,7 @@ VCR.configure do |c|
   c.ignore_localhost = true
   c.cassette_library_dir = 'spec/fixtures/cassettes'
   c.hook_into :webmock
-  c.default_cassette_options = { :record => :new_episodes } 
+  c.default_cassette_options = { :record => :new_episodes }
   # c.debug_logger = Rails.logger
 end
 
@@ -45,6 +46,23 @@ RSpec.configure do |config|
 
   config.include FactoryGirl::Syntax::Methods
   config.extend VCR::RSpec::Macros
+
+  config.before(:all) do
+    $redis.flushdb
+  end
+
+  config.before(:each, sidekiq: :inline) do
+    Sidekiq::Testing.inline!
+  end
+
+  config.before(:each, sidekiq: :disable) do
+    Sidekiq::Testing.disable!
+  end
+
+  config.after(:each) do
+    Sidekiq::Testing.fake!
+  end
+
 
   # If true, the base class of anonymous controllers will be inferred
   # automatically. This will be the default behavior in future versions of

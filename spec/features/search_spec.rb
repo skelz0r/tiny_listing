@@ -34,15 +34,15 @@ feature 'File search' do
 
   context "for real file name with underscore" do
     before do
-      create(:loot,name: "no_you_listen", extension: "mp3")
+      create(:loot, name: "no_you_listen", extension: "mp3")
     end
 
     scenario "works (thanks to loot's name_sanitize)" do
       fill_in 'loot_name', with: 'listen'
       launch_search
-      # print page.html
 
       page.should have_css("#loots")
+
       within("#loots") do
         page.should have_css('.loot', count: 1)
         page.should have_content('no_you_listen')
@@ -68,7 +68,7 @@ feature 'File search' do
       page.should have_content("3 results")
     end
   end
-  
+
   context "with only name" do
     it 'on a partial name with one precise word' do
       fill_in 'loot_name', with: 'lord'
@@ -95,7 +95,7 @@ feature 'File search' do
     it 'without text works' do
       fill_in 'loot_name', with: ''
       select 'mp3', from: "loot_extension"
-      launch_search 
+      launch_search
 
       page.should have_css("#loots")
       within("#loots") do
@@ -106,7 +106,7 @@ feature 'File search' do
     it 'with some text works' do
       fill_in 'loot_name', with: 'lord'
       select 'mp3', from: "loot_extension"
-      launch_search 
+      launch_search
 
       page.should have_css("#loots")
       within("#loots") do

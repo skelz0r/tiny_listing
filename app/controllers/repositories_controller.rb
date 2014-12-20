@@ -13,36 +13,19 @@ class RepositoriesController < ApplicationController
     @repository = Repository.find(params[:id])
   end
 
-  def update
-    repository = Repository.find(params[:id])
-
-    vacuum = Vacuum::Engine.new(repository)
-
-    if vacuum.suck_up!
-      flash.notice = "Repository #{vacuum.link} is now up to date !"
-    else
-      flash.alert = 'Repository not available'
-    end
-
-    redirect_to repository
-  end
-
   def create
-    @repository = Repository.new(repository_params)
+    register_repository = RegisterRepository.call(register_repository_params)
 
-    vacuum = Vacuum::Engine.new(@repository)
-
-    if vacuum.suck_up!
-      redirect_to root_path, notice: "Success, there's #{vacuum.loots_count} more coins!"
+    if register_repository.success?
+      redirect_to root_path, notice: "Loots on #{register_repository.repository.link} in progress!"
     else
-      flash.now.alert = "Something went wrong!"
-      render 'new'
+      redirect_to new_repository_path, alert: "Something went wrong: #{register_repository.message}"
     end
   end
 
   private
 
-  def repository_params
+  def register_repository_params
     params.require(:repository).permit(:link)
   end
 end
