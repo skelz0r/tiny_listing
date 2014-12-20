@@ -26,6 +26,8 @@ class RepositoriesController < ApplicationController
   private
 
   def register_repository_params
-    params.require(:repository).permit(:link)
+    params.require(:repository).permit(:link).merge({
+      user_id: current_user.id
+    })
   end
 end

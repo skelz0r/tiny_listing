@@ -31,6 +31,7 @@ group :test do
   gem 'factory_girl'
   gem 'vcr'
   gem 'rake'
+  gem 'shoulda-matchers', require: false
 end
 
 group :development do

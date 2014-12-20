@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe Vacuum::Engine do
   describe "suck_up!", sidekiq: :inline do
-    let(:repository) { Repository.create!(link: link) }
+    let(:repository) { create(:repository, link: link) }
 
     context "with a tiny example" do
       let(:link) { SITES["main_example"] }

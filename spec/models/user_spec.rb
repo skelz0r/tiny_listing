@@ -1,6 +1,8 @@
 require 'spec_helper'
 
 describe User do
+  it { should have_many(:repositories) }
+
   it "has a valid factory" do
     build(:user).should be_valid
   end
