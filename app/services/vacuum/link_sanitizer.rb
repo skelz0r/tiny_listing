@@ -6,6 +6,7 @@ require "addressable/uri"
 
 class Vacuum::LinkSanitizer
   LINK_REGEX = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+  LINK_IP_REGEX = /^(https?:\/\/)?[0-9]{,3}\.[0-9]{,3}\.[0-9]{,3}\.[0-9]{,3}([\/\w \.-]*)*\/?$/
 
   ##
   # Constructor
@@ -37,7 +38,7 @@ class Vacuum::LinkSanitizer
   ##
   # Check if link is valid according to regexp
   def valid?
-    @link_string =~ LINK_REGEX
+    (@link_string =~ LINK_REGEX || @link_string =~ LINK_IP_REGEX) ? true : false
   end
 
   protected
