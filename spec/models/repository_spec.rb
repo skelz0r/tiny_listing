@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe Repository do
-  it { should have_many(:loots) }
+  it { should have_many(:loots).dependent(:destroy) }
   it { should belong_to(:user) }
 
   it { should validate_presence_of(:user_id) }
