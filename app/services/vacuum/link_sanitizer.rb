@@ -38,7 +38,7 @@ class Vacuum::LinkSanitizer
   ##
   # Check if link is valid according to regexp
   def valid?
-    (@link_string =~ LINK_REGEX || @link_string =~ LINK_IP_REGEX) ? true : false
+    (uri.host =~ LINK_REGEX || uri.host =~ LINK_IP_REGEX) ? true : false
   end
 
   protected

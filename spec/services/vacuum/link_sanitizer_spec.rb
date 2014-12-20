@@ -56,6 +56,7 @@ describe Vacuum::LinkSanitizer do
       Vacuum::LinkSanitizer.new("www.lol.fr").should be_valid
       Vacuum::LinkSanitizer.new("lol.fr").should be_valid
       Vacuum::LinkSanitizer.new("http://178.32.222.59/public").should be_valid
+      Vacuum::LinkSanitizer.new("http://178.32.222.59/public/PARTAGE/torrents/?C=M;O=D").should be_valid
     end
   end
 end
