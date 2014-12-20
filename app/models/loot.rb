@@ -18,8 +18,17 @@ class Loot < ActiveRecord::Base
 
   def extract_name_from_link
     if self[:name].blank?
-      name = self[:link].split('/').last
-      self[:name] = URI.decode(name.split('.').first)
+      name_raw = self[:link].split('/').last
+      name_splitted = name_raw.split('.')
+
+      if name_splitted.length > 1
+        name_splitted.delete_at(-1)
+        name = name_splitted.join(" ")
+      else
+        name = name_splitted.first
+      end
+
+      self[:name] = URI.decode(name)
     end
   end
 

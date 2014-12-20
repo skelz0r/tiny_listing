@@ -26,9 +26,14 @@ describe Loot do
     end
 
     context "with some dots" do
+      let(:name) { "je.suis.une.baleine" }
 
+      it "extracted name properly" do
+        loot = create(:loot, link: "http://www.tropmarrant.fr/oki/non/#{name}.avi", name: nil)
+
+        loot.name.should == "je suis une baleine"
+      end
     end
-
   end
 
   describe "name_sanitize" do
